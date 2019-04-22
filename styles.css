@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Raleway, Calibri;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  background-image: url("./images/wood.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#landing {
+  background-image: url("./images/wood.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #FFFAFA;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+
+#landing h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#caron {
+  font-size: 30px;
+  color: #FFFAFA
+}
+
+#landing .button {
+  font-size: 18px;
+  color: #FFFAFA;
+  text-decoration: none;
+  border: #FFFAFA 1px solid;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#landing .button:hover {
+ box-shadow: 1px 1px 10px #FFFAFA;
+}
+
+#icons {
+  text-decoration: none;
+  list-style: none;
+}
+
+#icons li {
+  float: left;
+  padding: 10px
+}
+
+#education-section {
+ color: #FFFAFA;
+}
+
+#work-section {
+ color: #FFFAFA;
+}
+
+#leadership-section {
+ color: #FFFAFA;
+}
+
+#projects-section {
+  color: #FFFAFA;
+}
+
+legend {
+  font-size: 1.5em;
+  text-align: center;
+}
